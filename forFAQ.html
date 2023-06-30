@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegant Dashboard | Dashboard</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./img/svg/logo.svg" type="image/x-icon">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/Custome-style.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <style>
+    /* .input-group::after {
+      content: "*";
+      display: flex;
+      align-items: center;
+      font-size: large;
+
+    } */
+
+    input:invalid+span::after {
+      content: "*";
+      font-size: large;
+      color: red;
+    }
+
+    input:valid+span::after {
+      content: "*";
+      font-size: large;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page-flex">
+
+    <div class="main-wrapper">
+
+      <!-- ! Main -->
+      <main class="main users chart-page" id="skip-target">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-9">
+
+              <form action="" class="insert-form p-5 rounded">
+                <div class="row">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </span>
+                      <input required type="number" class="form-control"><span></span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input type="number" class="form-control"><span></span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fas fa-pen"></i>
+                      </span>
+                      <input type="number" class="form-control"><span></span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </span>
+                      <input type="number" class="form-control "><span></span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input disabled type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input type="number" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fas fa-pen"></i>
+                      </span>
+                      <input type="number" class="form-control">
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </span>
+                      <input type="number" class="form-control ">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input disabled type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fas fa-pen"></i>
+                      </span>
+                      <input type="number" class="form-control">
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </span>
+                      <input type="number" class="form-control ">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input disabled type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="pt-4">
+                    <input type="submit" value="ارسال" class="btn btn-primary  w-100 f-800">
+                  </div>
+                </div>
+              </form>
+            </div>
+
+
+
+          </div>
+        </div>
+      </main>
+
+    </div>
+  </div>
+  <!-- Chart library -->
+  <script src="./plugins/chart.min.js"></script>
+  <!-- Icons library -->
+  <script src="plugins/feather.min.js"></script>
+  <!-- Custom scripts -->
+  <script src="js/script.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
